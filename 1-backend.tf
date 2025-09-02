@@ -1,9 +1,9 @@
 # https://www.terraform.io/language/settings/backends/gcs
 terraform {
   backend "gcs" {
-    bucket      = "nycmanhattan04"
+    bucket      = "andregclass65bucket"
     prefix      = "terraform/state"
-    credentials = "andregrffinclass65-d6a872077315.json"
+    credentials = "andregclass65-5c81bb6dd1a8.json"
   }
   required_providers {
     google = {
